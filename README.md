@@ -8,11 +8,11 @@ on [https://schema.org/version/latest/schemaorg-current-https.jsonld](https://sc
 
 ## Requirements
 
-Works with python >= 3.8
+Works with python > 3.8
 
 ## How to install
 
-```pip install pydantic-schemaorg```<br><br>
+```python -m pip install git+https://github.com/CRENetwork/pydantic_schemaorg```<br><br>
 Import any class you want to use by with the following convention<br>
 ```from pydantic_schemaorg.<SCHEMAORG_MODEL_NAME> import <SCHEMAORG_MODEL_NAME>```<br><br>
 
